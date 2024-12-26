@@ -6,7 +6,7 @@ export default function Layout() {
 	return (
 		<>
 			<header>
-				<nav className="bg-blue-500">
+				<nav className="bg-primary">
 					<div className="container mx-auto px-6 py-3 flex justify-between items-center">
 						<div className='logo-comapany-name flex'>
 							<img src={logo} className="w-8 h-8" alt="Logo" />
