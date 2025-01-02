@@ -1,5 +1,5 @@
 node_modules
-
+dist
 
 tsconfig.app.json
 tsconfig.json
