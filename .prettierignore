@@ -1,0 +1,9 @@
+node_modules
+
+
+tsconfig.app.json
+tsconfig.json
+tsconfig.node.json
+vite.config.ts
+tailwind.config.js
+postcss.config.js
