@@ -1,3 +1,4 @@
+import WhyChooseUs from '../components/WhyChooseUs.tsx';
 import { Button } from './../components/ui/button.tsx';
 import { services, stats } from './../lib/data.ts';
 import { Apple, Figma, Gitlab, Github, ArrowRight } from 'lucide-react';
@@ -25,6 +26,8 @@ const Home = () => {
 					</div>
 				</div>
 			</section>
+
+			<WhyChooseUs />
 			
 			{/* Services Section */}
 			<section className="py-24 bg-gray-50">

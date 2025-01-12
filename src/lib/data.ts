@@ -9,3 +9,21 @@ export const stats = [
 	{ number: '10+', label: 'Years' },
 	{ number: '100%', label: 'Satisfaction' }
 ];
+
+export const whyChooseUs = [
+  {
+    icon: 'Timer',
+    title: 'Performance',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt beatae tenetur totam aut blanditis ipsa quaerat neque eaque, atque doloremque! Eligendi.'
+  },
+  {
+    icon: 'ZoomIn',
+    title: 'Quality',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt beatae tenetur totam aut blanditis ipsa quaerat neque eaque, atque doloremque! Eligendi.'
+  },
+  {
+    icon: 'Zap',
+    title: 'Innovation',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt beatae tenetur totam aut blanditis ipsa quaerat neque eaque, atque doloremque! Eligendi.'
+  }
+];
