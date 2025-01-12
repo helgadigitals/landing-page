@@ -1,3 +1,4 @@
+import Partners from '../components/Partners.tsx';
 import WhyChooseUs from '../components/WhyChooseUs.tsx';
 import { Button } from './../components/ui/button.tsx';
 import { services, stats } from './../lib/data.ts';
@@ -26,6 +27,11 @@ const Home = () => {
 					</div>
 				</div>
 			</section>
+
+			{/* Partners section */}
+			<Partners />
+
+			{/* Why Choose Us Section */}
 
 			<WhyChooseUs />
 			
