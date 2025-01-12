@@ -1,8 +1,9 @@
+import { ArrowRight } from 'lucide-react';
+import Faq from '../components/FAQ.tsx';
 import Partners from '../components/Partners.tsx';
 import WhyChooseUs from '../components/WhyChooseUs.tsx';
 import { Button } from './../components/ui/button.tsx';
 import { services, stats } from './../lib/data.ts';
-import { Apple, Figma, Gitlab, Github, ArrowRight } from 'lucide-react';
 
 const Home = () => {
 	return (
@@ -70,18 +71,7 @@ const Home = () => {
 				</div>
 			</section>
 			
-			{/* Partners Section */}
-			<section className="py-24 bg-white">
-				<div className="container mx-auto px-4 text-center">
-					<h2 className="text-4xl font-bold mb-16 text-gray-900">Trusted By Industry Leaders</h2>
-					<div className="grid grid-cols-2 md:grid-cols-4 gap-12 items-center">
-						<Apple size={20} className="w-full h-16 text-gray-700 hover:text-primary transition-colors" />
-						<Figma size={20} className="w-full h-16 text-gray-700 hover:text-primary transition-colors" />
-						<Gitlab size={20} className="w-full h-16 text-gray-700 hover:text-primary transition-colors" />
-						<Github size={20} className="w-full h-16 text-gray-700 hover:text-primary transition-colors" />
-					</div>
-				</div>
-			</section>
+			
 			
 			{/* Contact Section */}
 			<section className="py-24 bg-gray-50">
@@ -95,6 +85,9 @@ const Home = () => {
 					</div>
 				</div>
 			</section>
+
+
+			<Faq />
 		</main>
 	);
 };
